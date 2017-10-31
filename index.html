@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Web development portfolio of Scott Gray, aspiring web developer">
+    <meta name="keywords" content="web development, web design, front-end, developer, user interface, user experience, smart-hire">
+    <title>Scott Gray Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo+2:800">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Design Portfolio</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="resume.html">Resume</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="samples.html">Work Samples</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact" data-toggle="modal">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End fixed navbar -->
+    <!-- Page content -->
+    <div class="container">
+      <div class="jumbotron text-centered">
+        <h1>Hi, I'm Scott.</h1>
+        <p>I'm an aspiring web designer based in San Antonio, Texas.</p>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hire">I'm Available For Hire</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col">
+          <h1 class="blue">Personable</h1>
+          <p>Whether in person, on the phone, through email, online chat, or social media, I will make myself available in whatever communication media is convenient to my employer. One-on-one or in teams, I can work in any environment. I'd classify my interaction style as adaptive professionalism. I throw out my ego out the door. </p>
+        </div>
+        <div class="col-md-4 col">
+          <h1 class="blue">Adaptable</h1>
+          <p>I am used to constant change and am always actively reading, learning and engaging when change needs to occur to remain relevant. I enjoy learning new skills, taking on new responsibilities and challenging myself.</p>
+        </div>
+        <div class="col-md-4 col">
+          <h1 class="blue">Work Ethic</h1>
+          <p>I believe in the addage "a honest of work for a honest day of pay." I'm highly principled, honest and pride myself on having strong morals. Integrity matters. We should all be able to stand back at our work with pride.</p>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-inverse navbar-fixed-bottom" role"navigation">
+      <div class="container">
+        <div class="navbar-text pull-left">
+          <p>&#9400; Copyright Scott Gray 2017</p>
+        </div>
+      </div>
+    </div>
+    <!-- End page content -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Contact Modal -->
+    <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="hireModal" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="contactLabel">Contact</h4>
+          </div>
+          <div class="modal-body">
+            <i class="fa fa-phone-square" aria-hidden="true"></i> <a href="tel:(210) 238-6922">(210) 238-6922</a><br>
+            <i class="fa fa-envelope" aria-hidden="true"></i>  <a href="mailto:scott.gray@hotmail.com">scott.gray@hotmail.com</a><br>
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>  <a href="https://www.linkedin.com/in/scott-gray-0287b3144/" target="_blank">LinkedIn</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact Modal -->
+    <!-- Hire Button Modal -->
+    <div class="modal fade" id="hire" tabindex="-1" role="dialog" aria-labelledby="hireModal" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h3 class="modal-title" id="hireModalLabel">Great! I look forward to hearing from you!</h3>
+          </div>
+          <div class="modal-body">
+            <h4>Preferred Contact Method:</h4><p>Email at <a href="mailto:scott.gray@hotmail.com">scott.gray@hotmail.com</a></p><br>
+            <h4>Alternate Contact Method:</h4><p>Call me at <a href="tel:(210) 238-6922">(210) 238-6922</a>. Please leave a voicemail.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- End Modal -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
